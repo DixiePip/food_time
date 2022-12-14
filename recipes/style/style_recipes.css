@@ -136,7 +136,7 @@ header .header_social ul li a:hover {
   text-decoration: underline;
 }
 .wrapper_main .categories .breakfast .trend h3 a:hover {
-  color: #c0530a;
+  color: #ff2525;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
@@ -158,12 +158,13 @@ header .header_social ul li a:hover {
   margin-bottom: 5%;
 }
 .wrapper_main .categories .breakfast .slider .slider__item .h1 {
-  font-size: 2vw;
+  font-size: 1.5vw;
   margin-bottom: 3%;
 }
 .wrapper_main .categories .breakfast .slider .slider__item .p {
-  font-size: 1vw;
+  font-size: 0.8vw;
   margin: 0 3% 3% 3%;
+  color: #bdbdbd;
 }
 .wrapper_main .categories .breakfast .slider .slider__item .btn {
   margin-bottom: 3%;
@@ -174,7 +175,9 @@ header .header_social ul li a:hover {
   text-decoration: underline;
 }
 .wrapper_main .categories .breakfast .slider .slider__item .btn a:hover {
-  color: #c0530a;
+  color: #ff2525;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
 }
 .wrapper_main .categories .lanch {
   padding: 10px;
@@ -206,7 +209,7 @@ header .header_social ul li a:hover {
   text-decoration: underline;
 }
 .wrapper_main .categories .lanch .trend_2 h3 a:hover {
-  color: #c0530a;
+  color: #ff2525;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
@@ -244,7 +247,9 @@ header .header_social ul li a:hover {
   text-decoration: underline;
 }
 .wrapper_main .categories .lanch .slider_2 .slider_2__item .btn a:hover {
-  color: #c0530a;
+  color: #ff2525;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
 }
 .wrapper_main .categories .dinner {
   padding: 10px;
@@ -276,7 +281,7 @@ header .header_social ul li a:hover {
   text-decoration: underline;
 }
 .wrapper_main .categories .dinner .trend_3 h3 a:hover {
-  color: #c0530a;
+  color: #ff2525;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
@@ -314,7 +319,9 @@ header .header_social ul li a:hover {
   text-decoration: underline;
 }
 .wrapper_main .categories .dinner .slider_3 .slider_3__item .btn a:hover {
-  color: #c0530a;
+  color: #ff2525;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
 }
 .wrapper_main .categories .evening {
   padding: 10px;
@@ -346,7 +353,7 @@ header .header_social ul li a:hover {
   text-decoration: underline;
 }
 .wrapper_main .categories .evening .trend_4 h3 a:hover {
-  color: #c0530a;
+  color: #ff2525;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
@@ -384,7 +391,9 @@ header .header_social ul li a:hover {
   text-decoration: underline;
 }
 .wrapper_main .categories .evening .slider_4 .slider_4__item .btn a:hover {
-  color: #c0530a;
+  color: #ff2525;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
 }
 
 footer {
