@@ -42,7 +42,7 @@ body {
 
 body {
   font-family: "Open Sans";
-  background: url(../img/body.jpg) no-repeat center top/cover;
+  background: url(../img/fon.jpg);
 }
 
 .background {
@@ -78,7 +78,7 @@ header nav ul li:last-child {
   margin-right: 0px;
 }
 header nav ul li a {
-  color: #222222;
+  color: #ffffff;
 }
 header nav ul li a:hover {
   color: #ee711e;
@@ -103,7 +103,10 @@ header nav ul li .active {
       flex-wrap: wrap;
 }
 .wrapper_content .margin {
+  background-color: #333333;
   margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
 }
 .wrapper_content .margin img {
   border-radius: 15px;
@@ -115,6 +118,7 @@ header nav ul li .active {
           transform: scale(0.95);
 }
 .wrapper_content .margin h2 {
+  color: #ffffff;
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -123,6 +127,15 @@ header nav ul li .active {
 .wrapper_content .margin p {
   text-align: center;
   font-size: 15px;
+}
+.wrapper_content .margin p a {
+  color: #ee711e;
+  bottom: 0;
+}
+.wrapper_content .margin p a:hover {
+  color: #ff2525;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
 }
 
 .back {
@@ -148,8 +161,7 @@ header nav ul li .active {
 }
 
 footer {
-  border-top: 2px solid #fff;
-  background-color: rgb(56, 56, 56);
+  background-color: #333333;
 }
 footer .footer {
   max-width: 1000px;
@@ -166,7 +178,7 @@ footer .footer .footer_flex {
 }
 footer .footer .footer_flex .footer_one {
   padding-top: 10px;
-  color: #222;
+  color: #ffffff;
 }
 footer .footer .footer_flex .footer_one p {
   font-weight: 200;
@@ -175,8 +187,8 @@ footer .footer .footer_flex .footer_one p {
   margin-bottom: 10px;
 }
 footer .footer .footer_flex .footer_one p a {
-  color: #222;
-  border-bottom: 1px solid #222;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 footer .footer .footer_flex .footer_one p a:hover {
   color: #ee711e;
@@ -191,7 +203,7 @@ footer .footer .footer_flex .footer_two ul li {
   margin-top: 10px;
 }
 footer .footer .footer_flex .footer_two ul li a {
-  color: #222222;
+  color: #ffffff;
   font-weight: 500;
 }
 footer .footer .footer_flex .footer_two ul li a:hover {
@@ -206,7 +218,7 @@ footer .footer .footer_flex .footer_three ul li {
   margin-top: 10px;
 }
 footer .footer .footer_flex .footer_three ul li a {
-  color: #222222;
+  color: #ffffff;
   font-weight: 500;
 }
 footer .footer .footer_flex .footer_three ul li a:hover {
