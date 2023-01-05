@@ -289,6 +289,7 @@ header {
                     margin-right: 20px;
                 }
             }
+            
             .three_news_bottom {
                 margin-top: 10px;
                 display: flex;
@@ -333,13 +334,17 @@ header {
                 border-radius: 50%;
             }
             p {
-                text-align: justify;
+                text-align: center;
                 background-color: #444444;
                 padding: 10px;
             }
             .food_blog {
                 text-align: center;
                 background-color: #444444;
+            }
+            .insta a {
+                color: #ee711e;
+                text-decoration: underline;
             }
         }
         .popular_comments {
@@ -394,7 +399,7 @@ header {
                 .text {
                     padding: 15px 5px;
                     color: #fff;
-                    background-image: url(../img/2.0.jpg);
+                    background: url(../img/drinks.jpg)  no-repeat  center top / cover;
                     display: flex;
                     justify-content: space-between;
                     border: 1px solid #979797;
@@ -405,7 +410,7 @@ header {
                 .text {
                     padding: 15px 5px;
                     color: #fff;
-                    background-image: url(../img/2.jpg);
+                    background: url(../img/PP_cake.jpg)  no-repeat  center top / cover;
                     display: flex;
                     justify-content: space-between;
                     border: 1px solid #979797;
@@ -562,6 +567,7 @@ footer {
     background-color: transparent;
     border: 1px solid #fff;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .slider .slick-dots li.slick-active button {

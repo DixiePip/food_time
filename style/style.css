@@ -421,7 +421,7 @@ header .header_social ul li a:hover {
 }
 .wrapper_news aside .about {
   padding-top: 20px;
-  background-color: rgb(230, 230, 230);
+  background-color: #e6e6e6;
   border-radius: 10px;
   margin: 10px;
   background-color: #444444;
@@ -435,13 +435,17 @@ header .header_social ul li a:hover {
   border-radius: 50%;
 }
 .wrapper_news aside .about p {
-  text-align: justify;
+  text-align: center;
   background-color: #444444;
   padding: 10px;
 }
 .wrapper_news aside .about .food_blog {
   text-align: center;
   background-color: #444444;
+}
+.wrapper_news aside .about .insta a {
+  color: #ee711e;
+  text-decoration: underline;
 }
 .wrapper_news aside .popular_comments {
   margin: 10px 10px 10px 10px;
@@ -494,7 +498,7 @@ header .header_social ul li a:hover {
 .wrapper_news aside .category .category_1 .text {
   padding: 15px 5px;
   color: #fff;
-  background-image: url(../img/2.0.jpg);
+  background: url(../img/drinks.jpg) no-repeat center top/cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -507,7 +511,7 @@ header .header_social ul li a:hover {
 .wrapper_news aside .category .category_2 .text {
   padding: 15px 5px;
   color: #fff;
-  background-image: url(../img/2.jpg);
+  background: url(../img/PP_cake.jpg) no-repeat center top/cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -683,6 +687,7 @@ footer .footer .footer_flex .footer_four a img {
   background-color: transparent;
   border: 1px solid #fff;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .slider .slick-dots li.slick-active button {
