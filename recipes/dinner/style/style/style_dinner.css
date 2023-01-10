@@ -50,6 +50,55 @@ body {
   height: 20%;
 }
 
+.header {
+  padding: 10px 0px 10px 0px;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header nav ul li a {
+  color: #e2e2e2;
+  margin-right: 2vw;
+  font-weight: 500;
+}
+.header nav ul li a:hover {
+  color: #ee711e;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+.header nav ul .use {
+  border-bottom: 1px solid #ee711e;
+  color: #ee711e;
+}
+.header .header_social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header .header_social ul li a {
+  color: #e2e2e2;
+  margin-left: 2vw;
+  font-weight: 500;
+}
+.header .header_social ul li a:hover {
+  color: #ee711e;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
 header {
   margin: 30px auto 0px auto;
   padding: 20px 0 20px 0;
@@ -71,7 +120,7 @@ header nav ul li {
   margin-right: 30px;
   text-transform: uppercase;
   font-size: 20px;
-  color: rgb(192, 192, 192);
+  color: silver;
   font-weight: 500;
 }
 header nav ul li:last-child {
@@ -86,7 +135,6 @@ header nav ul li a:hover {
   transition: 0.3s ease;
 }
 header nav ul li .active {
-  font-size: 25px;
   text-decoration: underline;
   color: #ee711e;
 }
@@ -136,6 +184,34 @@ header nav ul li .active {
   color: #ff2525;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
+}
+.wrapper_content .Psheno_s_kuricej h6,
+.wrapper_content .Shaurma h6,
+.wrapper_content .Gustoj_sup_s_batatom h6,
+.wrapper_content .Plov_s_indejki h6,
+.wrapper_content .Rybnyj_sup_s_krasnoj_chechevicej h6,
+.wrapper_content .Soba_v_kislo-sladkom_souse_s_krevetkami h6,
+.wrapper_content .gribnoj_sup_iz_shampinonov h6,
+.wrapper_content .Tomatnyj_sup_s_moreproduktami h6,
+.wrapper_content .Stejk_iz_krasnoj_ryby_s_chernym_risom_v_kislo-sladkom_souse h6,
+.wrapper_content .Kurica_tushenaya_s_chernoslivom_i_s_kus-kusom h6,
+.wrapper_content .Indejka_v_tomatnom_souse_s_grechnevoj_kashoj h6,
+.wrapper_content .SHashlyk_iz_myasa_indejki h6,
+.wrapper_content .Krem-sup_iz_pomidorov_i_perca h6,
+.wrapper_content .Spagetti_s_kalmarami h6,
+.wrapper_content .Pirozhki_s_kapustoj_i_yajcom h6,
+.wrapper_content .Zapechenoe_kurinoe_file_s_tvorogom h6,
+.wrapper_content .Belaya_ryba_karri_s_ovoshchnym_ratatuem h6,
+.wrapper_content .CHekhohbili_s_grechkoj h6,
+.wrapper_content .Mintaj_na_lukovoj_podushke h6,
+.wrapper_content .Krem-sup_iz_brokkoli_s_krevetkami h6 {
+  font-size: 15px;
+  text-align: center;
+  color: #777777;
+  margin-bottom: 10px;
+}
+.wrapper_content .m {
+  background-color: #ff00ea;
 }
 
 .back {

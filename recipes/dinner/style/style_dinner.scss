@@ -15,6 +15,43 @@ body {
     background: url(../img/background.jpg) no-repeat center top / cover;
     height: 20%;
 }
+.header {
+    padding: 10px 0px 10px 0px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    nav ul{
+        display: flex;
+        li a{
+            color: rgb(226, 226, 226);
+            margin-right: 2vw;
+            font-weight: 500;
+            &:hover {
+                color: $text-use;
+                transition: 0.3s all;
+            }
+        }
+        .use {
+            border-bottom: 1px solid $text-use;
+            color: $text-use;
+        }
+    }
+    .header_social ul {
+        display: flex;
+        li a {
+            color: rgb(226, 226, 226);
+            margin-left: 2vw;
+            font-weight: 500;
+            &:hover {
+                color: $text-use;
+                transition: 0.3s all;
+            }
+        }
+    }
+    
+}
 header {
     margin: 30px auto 0px auto;
     nav ul{
@@ -38,7 +75,6 @@ header {
                 }
             }
             .active {
-                font-size: 25px;
                 text-decoration: underline;
                 color: $text-use;
             }
@@ -49,6 +85,7 @@ header {
     border-bottom: 2px dashed #333333;
 }
 .wrapper_content {
+    
     max-width: 1000px;
     margin: 50px auto 0 auto ;
     display: flex;
@@ -85,6 +122,36 @@ header {
                 transition: 0.3s all;
             }
         }
+    }
+    .Psheno_s_kuricej,
+    .Shaurma,
+    .Gustoj_sup_s_batatom,
+    .Plov_s_indejki,
+    .Rybnyj_sup_s_krasnoj_chechevicej,
+    .Soba_v_kislo-sladkom_souse_s_krevetkami,
+    .gribnoj_sup_iz_shampinonov,
+    .Tomatnyj_sup_s_moreproduktami,
+    .Stejk_iz_krasnoj_ryby_s_chernym_risom_v_kislo-sladkom_souse,
+    .Kurica_tushenaya_s_chernoslivom_i_s_kus-kusom,
+    .Indejka_v_tomatnom_souse_s_grechnevoj_kashoj,
+    .SHashlyk_iz_myasa_indejki,
+    .Krem-sup_iz_pomidorov_i_perca,
+    .Spagetti_s_kalmarami,
+    .Pirozhki_s_kapustoj_i_yajcom,
+    .Zapechenoe_kurinoe_file_s_tvorogom,
+    .Belaya_ryba_karri_s_ovoshchnym_ratatuem,
+    .CHekhohbili_s_grechkoj,
+    .Mintaj_na_lukovoj_podushke,
+    .Krem-sup_iz_brokkoli_s_krevetkami {
+        h6 {
+            font-size: 15px;
+            text-align: center;
+            color: #777777;
+            margin-bottom: 10px;
+        }
+    }
+    .m {
+        background-color:rgb(255, 0, 234);
     }
 }
 .back {
