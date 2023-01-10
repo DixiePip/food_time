@@ -15,6 +15,43 @@ body {
     background: url(../img/background.jpg) no-repeat center top / cover;
     height: 20%;
 }
+.header {
+    padding: 10px 0px 10px 0px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    nav ul{
+        display: flex;
+        li a{
+            color: rgb(226, 226, 226);
+            margin-right: 2vw;
+            font-weight: 500;
+            &:hover {
+                color: $text-use;
+                transition: 0.3s all;
+            }
+        }
+        .use {
+            border-bottom: 1px solid $text-use;
+            color: $text-use;
+        }
+    }
+    .header_social ul {
+        display: flex;
+        li a {
+            color: rgb(226, 226, 226);
+            margin-left: 2vw;
+            font-weight: 500;
+            &:hover {
+                color: $text-use;
+                transition: 0.3s all;
+            }
+        }
+    }
+    
+}
 header {
     margin: 30px auto 0px auto;
     nav ul{
@@ -79,7 +116,41 @@ header {
         p a {
             color: #ee711e;
             bottom: 0;
+            &:hover {
+                color: #ff2525;
+                transition: 0.3s all;
+            }
         }
+    }
+    .Ovsyanka_na_kokosovom_moloke,
+    .Mindalnye_pankejki,
+    .Omlet_s_gribami_i_lukom,
+    .Yaichnyj_rulet_s_ryboj,
+    .Pechenye_grushi_s_ovsyankoj_v_medu,
+    .Lenivaya_ovsyanka,
+    .Ovsyanaya_kasha,
+    .Zapechenyj_rzhanoj_hleb_s_yajcom_i_kapersami,
+    .Hachapuri,
+    .Syrnaya_lepeshka,
+    .Nezhnye_syrniki,
+    .Omlet_s_brokkoli,
+    .YAponskie_pankejki,
+    .Solnechnye_bliny_skurkumoj,
+    .syrniki_iz_tofu,
+    .Kasha_ovsyanaya_s_semenami_chia,
+    .Omlet_s_kabachkom,
+    .YAblochnye_syrniki,
+    .YAgodnyj_krambl_s_ovsyankoj,
+    .Bananovye_syrniki {
+        h6 {
+            font-size: 15px;
+            text-align: center;
+            color: #777777;
+            margin-bottom: 10px;
+        }
+    }
+    .m {
+        background-color:rgb(255, 0, 234);
     }
 }
 .back {

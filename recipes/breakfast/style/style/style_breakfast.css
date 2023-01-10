@@ -50,6 +50,55 @@ body {
   height: 20%;
 }
 
+.header {
+  padding: 10px 0px 10px 0px;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header nav ul li a {
+  color: #e2e2e2;
+  margin-right: 2vw;
+  font-weight: 500;
+}
+.header nav ul li a:hover {
+  color: #ee711e;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+.header nav ul .use {
+  border-bottom: 1px solid #ee711e;
+  color: #ee711e;
+}
+.header .header_social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header .header_social ul li a {
+  color: #e2e2e2;
+  margin-left: 2vw;
+  font-weight: 500;
+}
+.header .header_social ul li a:hover {
+  color: #ee711e;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
 header {
   margin: 30px auto 0px auto;
   padding: 20px 0 20px 0;
@@ -71,7 +120,7 @@ header nav ul li {
   margin-right: 30px;
   text-transform: uppercase;
   font-size: 20px;
-  color: rgb(192, 192, 192);
+  color: silver;
   font-weight: 500;
 }
 header nav ul li:last-child {
@@ -130,6 +179,39 @@ header nav ul li .active {
 .wrapper_content .margin p a {
   color: #ee711e;
   bottom: 0;
+}
+.wrapper_content .margin p a:hover {
+  color: #ff2525;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+.wrapper_content .Ovsyanka_na_kokosovom_moloke h6,
+.wrapper_content .Mindalnye_pankejki h6,
+.wrapper_content .Omlet_s_gribami_i_lukom h6,
+.wrapper_content .Yaichnyj_rulet_s_ryboj h6,
+.wrapper_content .Pechenye_grushi_s_ovsyankoj_v_medu h6,
+.wrapper_content .Lenivaya_ovsyanka h6,
+.wrapper_content .Ovsyanaya_kasha h6,
+.wrapper_content .Zapechenyj_rzhanoj_hleb_s_yajcom_i_kapersami h6,
+.wrapper_content .Hachapuri h6,
+.wrapper_content .Syrnaya_lepeshka h6,
+.wrapper_content .Nezhnye_syrniki h6,
+.wrapper_content .Omlet_s_brokkoli h6,
+.wrapper_content .YAponskie_pankejki h6,
+.wrapper_content .Solnechnye_bliny_skurkumoj h6,
+.wrapper_content .syrniki_iz_tofu h6,
+.wrapper_content .Kasha_ovsyanaya_s_semenami_chia h6,
+.wrapper_content .Omlet_s_kabachkom h6,
+.wrapper_content .YAblochnye_syrniki h6,
+.wrapper_content .YAgodnyj_krambl_s_ovsyankoj h6,
+.wrapper_content .Bananovye_syrniki h6 {
+  font-size: 15px;
+  text-align: center;
+  color: #777777;
+  margin-bottom: 10px;
+}
+.wrapper_content .m {
+  background-color: #ff00ea;
 }
 
 .back {
