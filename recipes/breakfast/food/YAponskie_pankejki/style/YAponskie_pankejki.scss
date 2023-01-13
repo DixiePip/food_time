@@ -35,7 +35,7 @@ body {
                 border-radius: 20px 0px 0px 0px ;
             }
             .name {
-                margin-left: 10px;
+                margin-left: 25px;
                 h1 {
                     font-size: 25px;
                     font-weight: 700;
@@ -46,11 +46,10 @@ body {
                     padding-top: 15px;
                     text-align: left;
                     ul li {
-                        list-style: circle;
+                        list-style: disc; 
                         margin-top: 15px;
                         color: #ffffff;
                         font-weight: 700;
-                        background-color:chartreuse;
                     }
                 }
             }
@@ -61,7 +60,6 @@ body {
                 padding: 15px 0px 15px 0px;
                 font-size: 20px;
                 font-weight: 700;
-                background-color: chartreuse;
             }
             i {
                 font-weight: 300;
@@ -76,7 +74,6 @@ body {
             }
             p {
                 font-size: 16px;
-                background-color:chartreuse;
             }
         }
         .back {
