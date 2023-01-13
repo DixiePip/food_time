@@ -85,7 +85,7 @@ body {
   border-radius: 20px 0px 0px 0px;
 }
 .body .wrapper header .name {
-  margin-left: 10px;
+  margin-left: 25px;
 }
 .body .wrapper header .name h1 {
   font-size: 25px;
@@ -102,14 +102,12 @@ body {
   margin-top: 15px;
   color: #ffffff;
   font-weight: 700;
-  background-color: chartreuse;
 }
 .body .wrapper .kkal p {
   color: #999999;
   padding: 15px 0px 15px 0px;
   font-size: 20px;
   font-weight: 700;
-  background-color: chartreuse;
 }
 .body .wrapper .kkal i {
   font-weight: 300;
@@ -122,7 +120,13 @@ body {
 }
 .body .wrapper .instruction p {
   font-size: 16px;
-  background-color: chartreuse;
+}
+.body .wrapper .reklama {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 20px 0px;
 }
 .body .wrapper .back {
   margin-top: 15px;
