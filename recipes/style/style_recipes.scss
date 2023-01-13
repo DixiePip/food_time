@@ -13,13 +13,14 @@ body {
 }
 
 .header {
-    background: url(../img/3.jpg) no-repeat center top / cover;
+    background: url(../img/333.png) no-repeat center top / cover;
     height: 100vh;
-    background-attachment: fixed;
 }
 
 header {
-    padding-top: 10px;
+    background-color: rgb(0,0,0,0.3);
+    padding: 10px;
+    border-radius: 10px;
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -56,7 +57,7 @@ header {
     
 }
 .wrapper_main {
-    padding-top: 50px;
+    padding-top: 0px;
     max-width: 1000px;
     margin: 0 auto;
     .categories {
@@ -113,7 +114,7 @@ header {
                         margin-bottom: 3%;
                     }
                     .p {
-                        font-size: 0.8vw;
+                        font-size: 1.1vw;
                         margin: 0 3% 3% 3%;
                         color: #bdbdbd;
 
@@ -133,78 +134,7 @@ header {
                 }
             }
         }
-        .lanch {
-            padding: 10px;
-            margin-top: 30px;
-            background-color: #333333;
-            border-radius: 10px;
-            color: #fff;
-            h1 {
-                text-align: center;
-                font-size: 40px;
-                margin-bottom: 2%;
-            }
-            .trend_2 {
-                margin:0 0 15px 0;
-                h2{
-                    text-align: center;
-                    color: #ee711e;
-                    font-size: 25px;
-                }
-                h3{
-                    margin-top: 15px;
-                    text-align: center;
-                     a {
-                        font-size: 15px;
-                        color: #ee711e;
-                        text-decoration: underline;
-                            &:hover {
-                                color: #ff2525;
-                            transition: 0.3s all;
-                        }
-                    }
-                }
-            }
-            .slider_2 {
-                min-width: 0;
-                padding: 0 30px;
-                .slider_2__item {
-                    margin: 0 10px;
-                    text-align: center;
-                    background-color: #444444;
-                    border-radius: 10px;
-                    img {
-                        padding-top: 2%;
-                        border-radius: 10px;
-                        max-width: 20vw;
-                        max-height: 20vh;
-                        margin-bottom: 5%;
-                    }
-                    .h1 {
-                        font-size: 2vw;
-                        margin-bottom: 3%;
-                    }
-                    .p {
-                        font-size: 1vw;
-                        margin: 0 3% 3% 3%;
-
-                    }
-                    .btn {
-                        margin-bottom: 3%;
-                         a {
-                            color: #ee711e;
-                            margin-bottom: 3%;
-                            
-                            text-decoration: underline;
-                            &:hover {
-                                color: #ff2525;
-                                transition: 0.3s all;
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        
         .dinner {
             padding: 10px;
             margin-top: 30px;
@@ -253,12 +183,13 @@ header {
                         margin-bottom: 5%;
                     }
                     .h1 {
-                        font-size: 2vw;
+                        font-size: 1.5vw;
                         margin-bottom: 3%;
                     }
                     .p {
-                        font-size: 1vw;
+                        font-size: 1.1vw;
                         margin: 0 3% 3% 3%;
+                        color: #bdbdbd;
 
                     }
                     .btn {
@@ -277,7 +208,80 @@ header {
                 }
             }
         }
-        .evening {
+        .lunch {
+            padding: 10px;
+            margin-top: 30px;
+            background-color: #333333;
+            border-radius: 10px;
+            color: #fff;
+            h1 {
+                text-align: center;
+                font-size: 40px;
+                margin-bottom: 2%;
+            }
+            .trend_2 {
+                margin:0 0 15px 0;
+                h2{
+                    text-align: center;
+                    color: #ee711e;
+                    font-size: 25px;
+                }
+                h3{
+                    margin-top: 15px;
+                    text-align: center;
+                     a {
+                        font-size: 15px;
+                        color: #ee711e;
+                        text-decoration: underline;
+                            &:hover {
+                                color: #ff2525;
+                            transition: 0.3s all;
+                        }
+                    }
+                }
+            }
+            .slider_2 {
+                min-width: 0;
+                padding: 0 30px;
+                .slider_2__item {
+                    margin: 0 10px;
+                    text-align: center;
+                    background-color: #444444;
+                    border-radius: 10px;
+                    img {
+                        padding-top: 2%;
+                        border-radius: 10px;
+                        max-width: 20vw;
+                        max-height: 20vh;
+                        margin-bottom: 5%;
+                    }
+                    .h1 {
+                        font-size: 1.5vw;
+                        margin-bottom: 3%;
+                    }
+                    .p {
+                        font-size: 1.1vw;
+                        margin: 0 3% 3% 3%;
+                        color: #bdbdbd;
+
+                    }
+                    .btn {
+                        margin-bottom: 3%;
+                         a {
+                            color: #ee711e;
+                            margin-bottom: 3%;
+                            
+                            text-decoration: underline;
+                            &:hover {
+                                color: #ff2525;
+                                transition: 0.3s all;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .evening_meal {
             padding: 10px;
             margin-top: 30px;
             background-color: #333333;
@@ -325,12 +329,13 @@ header {
                         margin-bottom: 5%;
                     }
                     .h1 {
-                        font-size: 2vw;
+                        font-size: 1.5vw;
                         margin-bottom: 3%;
                     }
                     .p {
-                        font-size: 1vw;
+                        font-size: 1.1vw;
                         margin: 0 3% 3% 3%;
+                        color: #bdbdbd;
 
                     }
                     .btn {

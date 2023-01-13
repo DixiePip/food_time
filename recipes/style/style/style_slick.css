@@ -73,13 +73,13 @@
           align-items: flex-start;
 }
 
-.slider__item {
+.slider_3__item {
   margin: 0 auto;
 }
 
 .slider_2 .slick-arrow {
   position: absolute;
-  top: 200%;
+  top: 265%;
   z-index: 20;
   font-size: 0;
   width: 15px;
@@ -142,13 +142,13 @@
           align-items: flex-start;
 }
 
-.slider_3__item {
+.slider__item {
   margin: 0 auto;
 }
 
 .slider_3 .slick-arrow {
   position: absolute;
-  top: 265%;
+  top: 200%;
   z-index: 20;
   font-size: 0;
   width: 15px;
