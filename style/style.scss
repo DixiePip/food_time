@@ -11,10 +11,7 @@ body {
     background-color: #222222;
 }
 
-// .header {
-//     // background: url(../img/2.0.jpg) no-repeat center top / cover;
-//     // min-height: 50px;
-// }
+
 
 header {
     // background-color: rgb(255, 255, 255, 0.5);
@@ -85,6 +82,7 @@ header {
     }
     .wrapper_one_right {
         background-color: #333333;
+
         width: 49%;
         .wrapper_one_right_content {
             margin-top: 30%; 
@@ -349,6 +347,9 @@ header {
         }
         .popular_comments {
             h1 {
+                font-weight: 600;
+                padding-bottom: 5px;
+                border-bottom: 2px solid #444444;
                 text-align: center;
                 font-size: 30px;
                 padding-top: 10px;
@@ -399,7 +400,7 @@ header {
                 .text {
                     padding: 15px 5px;
                     color: #fff;
-                    background: url(../img/drinks.jpg)  no-repeat  center top / cover;
+                    background: url(../img/drinks.webp)  no-repeat  center top / cover;
                     display: flex;
                     justify-content: space-between;
                     border: 1px solid #979797;
@@ -410,7 +411,7 @@ header {
                 .text {
                     padding: 15px 5px;
                     color: #fff;
-                    background: url(../img/PP_cake.jpg)  no-repeat  center top / cover;
+                    background: url(../img/PP_cake.webp)  no-repeat  center top / cover;
                     display: flex;
                     justify-content: space-between;
                     border: 1px solid #979797;
@@ -421,7 +422,7 @@ header {
                 .text {
                     padding: 15px 5px;
                     color: #fff;
-                    background-image: url(../img/2.jpg);
+                    background: url(../img/sport_pit.webp)  no-repeat  center top / cover;
                     display: flex;
                     justify-content: space-between;
                     border: 1px solid #979797;
@@ -432,7 +433,7 @@ header {
                 .text {
                     padding: 15px 5px;
                     color: #fff;
-                    background-image: url(../img/2.jpg);
+                    background: url(../img/Punsh.webp)  no-repeat  center top / cover;
                     display: flex;
                     justify-content: space-between;
                     border: 1px solid #979797;
@@ -544,10 +545,10 @@ footer {
     cursor: pointer;
 }
 .slider .slick-arrow.slick-prev {
-    background: url('../img/arrow_left.png') 0 0 / 100% no-repeat;
+    background: url('../img/arrow_left.webp') 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-next {
-    background: url('../img/arrow_right.png') 0 0 / 100% no-repeat;
+    background: url('../img/arrow_right.webp') 0 0 / 100% no-repeat;
     right: 50%;
 }
 
@@ -575,3 +576,23 @@ footer {
 }
 
 // .slider__item {}
+
+// display: none;
+.header_adaptive {
+    display: none;
+}
+.mobile_img {
+    display: none;
+}
+.mobile_about {
+    display: none;
+}
+.mobile_comments {
+    display: none;
+}
+.mobile_advertising {
+    display: none;
+}
+.mobile_news {
+    display: none;
+}

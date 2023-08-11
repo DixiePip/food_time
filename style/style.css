@@ -150,7 +150,7 @@ header .header_social ul li a:hover {
   color: #fff;
 }
 .wrapper_one .wrapper_one_right .wrapper_one_right_content p {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: #fff;
 }
 .wrapper_one .wrapper_one_right .wrapper_one_right_content .btn a {
@@ -163,7 +163,7 @@ header .header_social ul li a:hover {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.wrapper_one .wrapper_one_right .wrapper_one_right_content img {
+.wrapper_one .wrapper_one_right .wrapper_one_right_content .chees {
   margin-left: 90%;
   margin-top: 5%;
   -webkit-animation: anim 10s infinite running;
@@ -171,7 +171,7 @@ header .header_social ul li a:hover {
   margin-bottom: 30px;
 }
 
-@-webkit-keyframes anim {
+/* @-webkit-keyframes anim {
   0% {
     margin-left: 80%;
     margin-top: -5%;
@@ -205,7 +205,7 @@ header .header_social ul li a:hover {
     margin-top: -5%;
     rotate: 90deg;
   }
-}
+} */
 .wrapper_news {
   padding-top: 50px;
   max-width: 1000px;
@@ -452,6 +452,9 @@ header .header_social ul li a:hover {
   border-radius: 10px;
 }
 .wrapper_news aside .popular_comments h1 {
+  font-weight: 600;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #444444;
   text-align: center;
   font-size: 30px;
   padding-top: 10px;
@@ -498,7 +501,7 @@ header .header_social ul li a:hover {
 .wrapper_news aside .category .category_1 .text {
   padding: 15px 5px;
   color: #fff;
-  background: url(../img/drinks.jpg) no-repeat center top/cover;
+  background: url(../img/drinks.webp) no-repeat center top/cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -511,7 +514,7 @@ header .header_social ul li a:hover {
 .wrapper_news aside .category .category_2 .text {
   padding: 15px 5px;
   color: #fff;
-  background: url(../img/PP_cake.jpg) no-repeat center top/cover;
+  background: url(../img/PP_cake.webp) no-repeat center top/cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -524,7 +527,7 @@ header .header_social ul li a:hover {
 .wrapper_news aside .category .category_3 .text {
   padding: 15px 5px;
   color: #fff;
-  background-image: url(../img/2.jpg);
+  background: url(../img/sport_pit.webp) no-repeat center top/cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -537,7 +540,7 @@ header .header_social ul li a:hover {
 .wrapper_news aside .category .category_4 .text {
   padding: 15px 5px;
   color: #fff;
-  background-image: url(../img/2.jpg);
+  background: url(../img/Punsh.webp) no-repeat center top/cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -655,11 +658,11 @@ footer .footer .footer_flex .footer_four a img {
 }
 
 .slider .slick-arrow.slick-prev {
-  background: url("../img/arrow_left.png") 0 0/100% no-repeat;
+  background: url("../img/arrow_left.webp") 0 0/100% no-repeat;
 }
 
 .slider .slick-arrow.slick-next {
-  background: url("../img/arrow_right.png") 0 0/100% no-repeat;
+  background: url("../img/arrow_right.webp") 0 0/100% no-repeat;
   right: 50%;
 }
 
@@ -692,4 +695,40 @@ footer .footer .footer_flex .footer_four a img {
 
 .slider .slick-dots li.slick-active button {
   background-color: #ee711e;
+}
+
+.header_adaptive {
+  display: none;
+}
+
+.mobile_img {
+  display: none;
+}
+
+.mobile_about {
+  display: none;
+}
+
+.mobile_comments {
+  display: none;
+}
+
+.mobile_advertising {
+  display: none;
+}
+
+.mobile_news {
+  display: none;
+}
+.evolution {
+  display: none;
+}
+.mobile_line {
+  display: none;
+}
+.mobile_comments_new {
+  display: none;
+}
+.mobile_categories_people {
+  display: none;
 }
