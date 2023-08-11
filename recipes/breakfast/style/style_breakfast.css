@@ -42,11 +42,11 @@ body {
 
 body {
   font-family: "Open Sans";
-  background: url(../img/fon.jpg);
+  background: url(../img/fon.webp);
 }
 
 .background {
-  background: url(../img/background.jpg) no-repeat center top/cover;
+  background: url(../img/background.webp) no-repeat center top/cover;
   height: 20%;
 }
 
@@ -70,7 +70,7 @@ body {
   display: flex;
 }
 .header nav ul li a {
-  color: #e2e2e2;
+  color: rgb(226, 226, 226);
   margin-right: 2vw;
   font-weight: 500;
 }
@@ -89,7 +89,7 @@ body {
   display: flex;
 }
 .header .header_social ul li a {
-  color: #e2e2e2;
+  color: rgb(226, 226, 226);
   margin-left: 2vw;
   font-weight: 500;
 }
@@ -120,7 +120,7 @@ header nav ul li {
   margin-right: 30px;
   text-transform: uppercase;
   font-size: 20px;
-  color: silver;
+  color: rgb(192, 192, 192);
   font-weight: 500;
 }
 header nav ul li:last-child {
@@ -210,9 +210,9 @@ header nav ul li .active {
   color: #777777;
   margin-bottom: 10px;
 }
-.wrapper_content .m {
-  background-color: #ff00ea;
-}
+/* .wrapper_content .m {
+  background-color: rgb(255, 0, 234);
+} */
 
 .back {
   max-width: 150px;
@@ -322,3 +322,66 @@ footer .footer .footer_flex .footer_four a img {
   margin-top: 10px;
   padding-bottom: 10px;
 }
+
+
+.header_adaptive {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) { 
+  .wrapper_content .margin {
+    background-color: #cbe75e;
+  }
+  .wrapper_content .margin img {
+    border-radius: 50px;
+    border: 2px solid #000;
+  }
+  header nav ul li a {
+    color: #000000;
+    font-weight: 600;
+  }  
+  header nav ul li .active {
+    color: #000000;
+    font-weight: 700;
+  }
+  .wrapper_content .margin p a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: overline;
+  }
+  .wrapper_content .margin h2 {
+    color: #000;
+  }
+  .wrapper_content .Ovsyanka_na_kokosovom_moloke h6, .wrapper_content .Mindalnye_pankejki h6, .wrapper_content .Omlet_s_gribami_i_lukom h6, .wrapper_content .Yaichnyj_rulet_s_ryboj h6, .wrapper_content .Pechenye_grushi_s_ovsyankoj_v_medu h6, .wrapper_content .Lenivaya_ovsyanka h6, .wrapper_content .Ovsyanaya_kasha h6, .wrapper_content .Zapechenyj_rzhanoj_hleb_s_yajcom_i_kapersami h6, .wrapper_content .Hachapuri h6, .wrapper_content .Syrnaya_lepeshka h6, .wrapper_content .Nezhnye_syrniki h6, .wrapper_content .Omlet_s_brokkoli h6, .wrapper_content .YAponskie_pankejki h6, .wrapper_content .Solnechnye_bliny_skurkumoj h6, .wrapper_content .syrniki_iz_tofu h6, .wrapper_content .Kasha_ovsyanaya_s_semenami_chia h6, .wrapper_content .Omlet_s_kabachkom h6, .wrapper_content .YAblochnye_syrniki h6, .wrapper_content .YAgodnyj_krambl_s_ovsyankoj h6, .wrapper_content .Bananovye_syrniki h6 {
+    color: #ffffff;
+  }
+  header {
+    border-top: 2px dashed #000;
+    border-bottom: 2px dashed #000;
+  }
+  .back a { 
+    background-color: #cbe75e;
+    border: 2px solid #000;
+    color: #000;
+    font-weight: 600;
+  }
+  .wrapper_content .margin p a:hover {
+    color: #ffffff;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+  }
+  footer {
+    background-color: #0c0c0c;
+  }
+  .footer_ps .content p {
+    color: #000;
+  }
+} 
