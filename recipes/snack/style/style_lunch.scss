@@ -9,10 +9,10 @@ $font-text: 'Open Sans';
 body {
     font-family: $font-text;
     // background-color: rgb(223, 223, 223);
-    background: url(../img/fon.jpg);
+    background: url(../img/fon.webp);
 }
 .background {
-    background: url(../img/background.jpg) no-repeat center top / cover;
+    background: url(../img/background.webp) no-repeat center top / cover;
     height: 20%;
 }
 .header {
@@ -141,7 +141,8 @@ header {
     .Rulet_iz_lavasha_s_gribami,
     .Buterbrod_s_kopchenoj_kuricej_i_pomidorami,
     .Omlet_s_zelenyu,
-    .Svekolnyj_salat {
+    .Svekolnyj_salat,
+    .Salat_iz_kurinoj_pecheni {
         h6 {
             font-size: 15px;
             text-align: center;

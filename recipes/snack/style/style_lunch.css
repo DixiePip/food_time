@@ -42,11 +42,11 @@ body {
 
 body {
   font-family: "Open Sans";
-  background: url(../img/fon.jpg);
+  background: url(../img/fon.webp);
 }
 
 .background {
-  background: url(../img/background.jpg) no-repeat center top/cover;
+  background: url(../img/background.webp) no-repeat center top/cover;
   height: 20%;
 }
 
@@ -70,7 +70,7 @@ body {
   display: flex;
 }
 .header nav ul li a {
-  color: #e2e2e2;
+  color: rgb(226, 226, 226);
   margin-right: 2vw;
   font-weight: 500;
 }
@@ -89,7 +89,7 @@ body {
   display: flex;
 }
 .header .header_social ul li a {
-  color: #e2e2e2;
+  color: rgb(226, 226, 226);
   margin-left: 2vw;
   font-weight: 500;
 }
@@ -120,7 +120,7 @@ header nav ul li {
   margin-right: 30px;
   text-transform: uppercase;
   font-size: 20px;
-  color: silver;
+  color: rgb(192, 192, 192);
   font-weight: 500;
 }
 header nav ul li:last-child {
@@ -204,15 +204,16 @@ header nav ul li .active {
 .wrapper_content .Rulet_iz_lavasha_s_gribami h6,
 .wrapper_content .Buterbrod_s_kopchenoj_kuricej_i_pomidorami h6,
 .wrapper_content .Omlet_s_zelenyu h6,
-.wrapper_content .Svekolnyj_salat h6 {
+.wrapper_content .Svekolnyj_salat h6,
+.wrapper_content .Salat_iz_kurinoj_pecheni h6 {
   font-size: 15px;
   text-align: center;
   color: #777777;
   margin-bottom: 10px;
 }
-.wrapper_content .m {
-  background-color: #ff00ea;
-}
+/* .wrapper_content .m {
+  background-color: rgb(255, 0, 234);
+} */
 
 .back {
   max-width: 150px;
@@ -322,3 +323,59 @@ footer .footer .footer_flex .footer_four a img {
   margin-top: 10px;
   padding-bottom: 10px;
 }
+
+
+.header_adaptive {
+  display: none;
+}
+
+
+@media (max-width: 480px) { 
+  .wrapper_content .margin {
+    background-color: #fda05a;
+  }
+  .wrapper_content .margin img {
+    border-radius: 50px;
+    border: 2px solid #000;
+  }
+  header nav ul li a {
+    color: #000000;
+    font-weight: 600;
+  }  
+  header nav ul li .active {
+    color: #000000;
+    font-weight: 700;
+  }
+  .wrapper_content .margin p a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: overline;
+  }
+  .wrapper_content .margin h2 {
+    color: #000;
+  }
+  .wrapper_content .Tykvennyj_omlet h6, .wrapper_content .Smuzi h6, .wrapper_content .Smuzi_grin h6, .wrapper_content .Buterbrod_s_zelenyu_ogurcom_i_tverdym_syrom h6, .wrapper_content .Omlet_s_percem_i_zelenyu h6, .wrapper_content .Buterbrod_s_tuncom_i_yajcom h6, .wrapper_content .pexels-nicola-barts-7936744 h6, .wrapper_content .Chia-puding_s_bananom h6, .wrapper_content .Buterbrod_s_kuricej_i_tomatami h6, .wrapper_content .Buterbrod_s_tuncom_i_avokado h6, .wrapper_content .Chernichnyj-Smuzi h6, .wrapper_content .Tvorozhnaya_zapekanka_s_izyumom h6, .wrapper_content .PP_morozhenoe h6, .wrapper_content .Buterbrod_s_yajcom_i_avokado h6, .wrapper_content .Fruktovyj_salat h6, .wrapper_content .Ovoshchnoj_salat h6, .wrapper_content .Rulet_iz_lavasha_s_gribami h6, .wrapper_content .Buterbrod_s_kopchenoj_kuricej_i_pomidorami h6, .wrapper_content .Omlet_s_zelenyu h6, .wrapper_content .Svekolnyj_salat h6, .wrapper_content .Salat_iz_kurinoj_pecheni h6 {
+    color: #ffffff;
+}
+  header {
+    border-top: 2px dashed #000;
+    border-bottom: 2px dashed #000;
+  }
+  .back a { 
+    background-color: #fda05a;
+    border: 2px solid #000;
+    color: #000;
+    font-weight: 600;
+  }
+  .wrapper_content .margin p a:hover {
+    color: #ffffff;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+  }
+  footer {
+    background-color: #0c0c0c;
+  }
+  .footer_ps .content p {
+    color: #000;
+  }
+} 
