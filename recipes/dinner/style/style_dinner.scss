@@ -9,10 +9,10 @@ $font-text: 'Open Sans';
 body {
     font-family: $font-text;
     // background-color: rgb(223, 223, 223);
-    background: url(../img/fon.jpg);
+    background: url(../img/fon.webp);
 }
 .background {
-    background: url(../img/background.jpg) no-repeat center top / cover;
+    background: url(../img/background.webp) no-repeat center top / cover;
     height: 20%;
 }
 .header {

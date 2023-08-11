@@ -42,11 +42,11 @@ body {
 
 body {
   font-family: "Open Sans";
-  background: url(../img/fon.jpg);
+  background: url(../img/fon.webp);
 }
 
 .background {
-  background: url(../img/background.jpg) no-repeat center top/cover;
+  background: url(../img/background.webp) no-repeat center top/cover;
   height: 20%;
 }
 
@@ -70,7 +70,7 @@ body {
   display: flex;
 }
 .header nav ul li a {
-  color: #e2e2e2;
+  color: rgb(226, 226, 226);
   margin-right: 2vw;
   font-weight: 500;
 }
@@ -89,7 +89,7 @@ body {
   display: flex;
 }
 .header .header_social ul li a {
-  color: #e2e2e2;
+  color: rgb(226, 226, 226);
   margin-left: 2vw;
   font-weight: 500;
 }
@@ -120,7 +120,7 @@ header nav ul li {
   margin-right: 30px;
   text-transform: uppercase;
   font-size: 20px;
-  color: silver;
+  color: rgb(192, 192, 192);
   font-weight: 500;
 }
 header nav ul li:last-child {
@@ -210,9 +210,9 @@ header nav ul li .active {
   color: #777777;
   margin-bottom: 10px;
 }
-.wrapper_content .m {
-  background-color: #ff00ea;
-}
+/* .wrapper_content .m {
+  background-color: rgb(255, 0, 234);
+} */
 
 .back {
   max-width: 150px;
@@ -322,3 +322,60 @@ footer .footer .footer_flex .footer_four a img {
   margin-top: 10px;
   padding-bottom: 10px;
 }
+
+
+.header_adaptive {
+  display: none;
+}
+
+
+
+@media (max-width: 480px) { 
+  .wrapper_content .margin {
+    background-color: #b1604f;
+  }
+  .wrapper_content .margin img {
+    border-radius: 50px;
+    border: 2px solid #000;
+  }
+  header nav ul li a {
+    color: #000000;
+    font-weight: 600;
+  }  
+  header nav ul li .active {
+    color: #000000;
+    font-weight: 700;
+  }
+  .wrapper_content .margin p a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: overline;
+  }
+  .wrapper_content .margin h2 {
+    color: #000;
+  }
+  .wrapper_content .Psheno_s_kuricej h6, .wrapper_content .Shaurma h6, .wrapper_content .Gustoj_sup_s_batatom h6, .wrapper_content .Plov_s_indejki h6, .wrapper_content .Rybnyj_sup_s_krasnoj_chechevicej h6, .wrapper_content .Soba_v_kislo-sladkom_souse_s_krevetkami h6, .wrapper_content .gribnoj_sup_iz_shampinonov h6, .wrapper_content .Tomatnyj_sup_s_moreproduktami h6, .wrapper_content .Stejk_iz_krasnoj_ryby_s_chernym_risom_v_kislo-sladkom_souse h6, .wrapper_content .Kurica_tushenaya_s_chernoslivom_i_s_kus-kusom h6, .wrapper_content .Indejka_v_tomatnom_souse_s_grechnevoj_kashoj h6, .wrapper_content .SHashlyk_iz_myasa_indejki h6, .wrapper_content .Krem-sup_iz_pomidorov_i_perca h6, .wrapper_content .Spagetti_s_kalmarami h6, .wrapper_content .Pirozhki_s_kapustoj_i_yajcom h6, .wrapper_content .Zapechenoe_kurinoe_file_s_tvorogom h6, .wrapper_content .Belaya_ryba_karri_s_ovoshchnym_ratatuem h6, .wrapper_content .CHekhohbili_s_grechkoj h6, .wrapper_content .Mintaj_na_lukovoj_podushke h6, .wrapper_content .Krem-sup_iz_brokkoli_s_krevetkami h6 {
+    color: #ffffff;
+  }
+  header {
+    border-top: 2px dashed #000;
+    border-bottom: 2px dashed #000;
+  }
+  .back a { 
+    background-color: #b1604f;
+    border: 2px solid #000;
+    color: #000;
+    font-weight: 600;
+  }
+  .wrapper_content .margin p a:hover {
+    color: #ffffff;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+  }
+  footer {
+    background-color: #0c0c0c;
+  }
+  .footer_ps .content p {
+    color: #000;
+  }
+} 
