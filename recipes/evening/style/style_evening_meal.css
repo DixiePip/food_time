@@ -42,11 +42,11 @@ body {
 
 body {
   font-family: "Open Sans";
-  background: url(../img/fon.jpg);
+  background: url(../img/fon.webp);
 }
 
 .background {
-  background: url(../img/background.jpg) no-repeat center top/cover;
+  background: url(../img/background.webp) no-repeat center top/cover;
   height: 20%;
 }
 
@@ -204,12 +204,16 @@ header nav ul li .active {
 .wrapper_content .File_gorbushi_pod_ovoshchami h6,
 .wrapper_content .Kotlety_iz_indejki_so_svezhim_salatom h6,
 .wrapper_content .Zapechenye_baklazhany h6,
+.wrapper_content .Ovoshchnoe_sote_s_ryboj h6,
 .wrapper_content .Grechka_s_kurinoj_pechenyu h6 {
   font-size: 15px;
   text-align: center;
   color: #777777;
   margin-bottom: 10px;
 }
+/* .wrapper_content .m {
+  background-color: rgb(255, 0, 234);
+} */
 
 .back {
   max-width: 150px;
@@ -319,3 +323,77 @@ footer .footer .footer_flex .footer_four a img {
   margin-top: 10px;
   padding-bottom: 10px;
 }
+
+.header_adaptive {
+  display: none;
+}
+
+@media (max-width: 480px) { 
+  .wrapper_content .margin {
+    background-color: #ef7eb6;
+  }
+  .wrapper_content .margin img {
+    border-radius: 50px;
+    border: 2px solid #000;
+  }
+  header nav ul li a {
+    color: #000000;
+    font-weight: 600;
+  }  
+  header nav ul li .active {
+    color: #000000;
+    font-weight: 700;
+  }
+  .wrapper_content .margin p a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: overline;
+  }
+  .wrapper_content .margin h2 {
+    color: #000;
+  }
+  .wrapper_content .Kurica_s_ovoshchami_v_gorshochke h6,
+  .wrapper_content .Semga_s_fasolyu_zapechenaya_v_konverte h6,
+  .wrapper_content .Tunec_s_kus-kusom_i_ovoshchami h6,
+  .wrapper_content .Grechka_s_kurinoj_pechenyu h6,
+  .wrapper_content .CHechevica_s_tomatami h6,
+  .wrapper_content .Zapechenaya_cvetnaya_kapusta_s_indejkoj h6,
+  .wrapper_content .Salat_s_krevetkami h6,
+  .wrapper_content .Pirog_s_kuricej_i_cukini h6,
+  .wrapper_content .Otvarnoj_hek_i_ovoshchnoe_ragu h6,
+  .wrapper_content .Ryba_s_ovoshchami_v_duhovke h6,
+  .wrapper_content .Brokkoli_s_mocarelloj h6,
+  .wrapper_content .Kurinaya_zapekanka h6,
+  .wrapper_content .Belaya_ryba_zapechenaya_v_pergamente h6,
+  .wrapper_content .Salat_s_konservirovannym_tuncom h6,
+  .wrapper_content .Kinoa_s_tofu h6,
+  .wrapper_content .Ris_s_ovoshchami_i_kalmarom h6,
+  .wrapper_content .File_gorbushi_pod_ovoshchami h6,
+  .wrapper_content .Kotlety_iz_indejki_so_svezhim_salatom h6,
+  .wrapper_content .Zapechenye_baklazhany h6,
+  .wrapper_content .Ovoshchnoe_sote_s_ryboj h6,
+  .wrapper_content .Grechka_s_kurinoj_pechenyu h6 {
+    color: #ffffff;
+  }
+  header {
+    border-top: 2px dashed #000;
+    border-bottom: 2px dashed #000;
+  }
+  .back a { 
+    background-color: #ef7eb6;
+    border: 2px solid #000;
+    color: #000;
+    font-weight: 600;
+  }
+  .wrapper_content .margin p a:hover {
+    color: #ffffff;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+  }
+  footer {
+    background-color: #0c0c0c;
+  }
+  .footer_ps .content p {
+    color: #000;
+  }
+} 

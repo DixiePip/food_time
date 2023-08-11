@@ -42,11 +42,11 @@ body {
 
 body {
   font-family: "Open Sans";
-  background: url(../img/fon.jpg);
+  background: url(../img/fon.webp);
 }
 
 .background {
-  background: url(../img/background.jpg) no-repeat center top/cover;
+  background: url(../img/background.webp) no-repeat center top/cover;
   height: 20%;
 }
 
