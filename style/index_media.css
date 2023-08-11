@@ -897,3 +897,13 @@
         margin-top: -80px;
     }
 } 
+
+
+
+
+@media (max-width: 480px) { 
+    .header_menu { 
+      background-image: none;
+      background-color: #993f35;
+    }
+  }
